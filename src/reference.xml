@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding="utf-8"?>
+
+<bibliography
+    xmlns="http://docbook.org/ns/docbook"
+    xmlns:xi="http://www.w3.org/2001/XInclude"
+    xmlns:xl="http://www.w3.org/1999/xlink"
+    
+    xml:id="reference">
+
+<bibliomixed xml:id="ref.c_lan_junior_coding_rule">
+  <bibliosource><link xl:href="http://c.biancheng.net/cpp/html/752.html">非计算机专业C语言初学者编程规范(学生用)—命名规则_C语言中文网</link></bibliosource>
+  <author>C语言中文网</author>
+</bibliomixed>
+
+<bibliomixed xml:id="ref.why_coding_style_matters">
+  <bibliosource><link xl:href="http://www.smashingmagazine.com/2012/10/25/why-coding-style-matters/">Why Coding Style Matters - Smashing Magazine</link></bibliosource>
+  <author>Nicholas C. Zakas</author>
+</bibliomixed>
+
+<bibliomixed xml:id="ref.wiki_coding_conventions">
+  <bibliosource><link xl:href="http://en.wikipedia.org/wiki/Coding_conventions">Coding conventions - Wikipedia, the free encyclopedia</link></bibliosource>
+  <author>wikipedia</author>
+</bibliomixed>
+
+<bibliomixed xml:id="ref.wiki_programming_style">
+  <bibliosource><link xl:href="http://en.wikipedia.org/wiki/Programming_style">Programming style - Wikipedia, the free encyclopedia</link></bibliosource>
+  <author>wikipedia</author>
+</bibliomixed>
+
+<bibliomixed xml:id="ref.ece_cmu_c_coding_standard">
+  <bibliosource><link xl:href="http://users.ece.cmu.edu/~eno/coding/CCodingStandard.html">C Coding Standard</link></bibliosource>
+  <author>ece.cmu.edu</author>
+</bibliomixed>
+
+<bibliomixed xml:id="ref.ece_cmu_cpp_coding_standard">
+  <bibliosource><link xl:href="http://users.ece.cmu.edu/~eno/coding/CppCodingStandard.html">C++ Coding Standard</link></bibliosource>
+  <author>ece.cmu.edu</author>
+</bibliomixed>
+
+<bibliomixed xml:id="ref.many_coding_rules">
+  <bibliosource><link xl:href="http://segmentfault.com/bookmark/1230000002486653">各种规范 - SegmentFault</link></bibliosource>
+  <author>SegmentFault</author>
+</bibliomixed>
+
+<bibliomixed xml:id="ref.wiki_hal_abelson">
+  <bibliosource><link xl:href="http://zh.wikipedia.org/wiki/%E5%93%88%E5%B0%94%C2%B7%E9%98%BF%E4%BC%AF%E5%B0%94%E6%A3%AE">哈尔·阿伯尔森 - 维基百科，自由的百科全书</link></bibliosource>
+  <author>wikipedia</author>
+</bibliomixed>
+
+</bibliography>

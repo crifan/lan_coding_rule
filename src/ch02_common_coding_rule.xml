@@ -1,0 +1,271 @@
+<?xml version='1.0' encoding="utf-8"?>
+
+<!DOCTYPE chapter
+[
+
+<!ENTITY % crl_ent PUBLIC "crl.ent" 'http://www.crifan.com/files/res/docbook/entity/crl.ent'>
+%crl_ent;
+
+]>
+
+<chapter 
+    xmlns="http://docbook.org/ns/docbook"
+    xmlns:xi="http://www.w3.org/2001/XInclude"
+    xmlns:xl="http://www.w3.org/1999/xlink"
+    
+    xml:id="ch02_common_coding_rule">
+
+<title>通用的编程规范</title>
+<para></para>
+<para></para>
+<para>此处介绍，不论是任何计算机语言，相对来说都，通用的，具有普适性的一些编程规范。</para>
+<para></para>
+
+<sect1 xml:id="coding_rule_style"><title>编程规范之风格</title>
+	<para></para>
+	<para></para>
+	<para></para>
+
+	<sect2 xml:id="rule_unified_style"><title>风格统一</title>
+		<para>整个项目遵守同一种风格。</para>
+		<para>包括但不限于：</para>
+		<itemizedlist>
+			<listitem>命名方法
+				<para>要么都是驼峰法命名，要么都是匈牙利命名法，不要两者混用。</para>
+				<para></para>
+				<para></para>
+			</listitem>
+			<listitem>括号的位置
+				<para>花括号{}的位置，要么是同一行，要么是换行对齐，不要混用。</para>
+				<para></para>
+				<para></para>
+			</listitem>
+			<listitem>缩进
+				<para>缩进是用空格还是TAB键</para>
+				<para>如果用空格缩进，空格是用2个还是4个</para>
+				<para></para>
+			</listitem>
+			<listitem>代码中合适的位置添加空格以便于增加代码可读性
+				<itemizedlist>
+					<listitem>二元操作符的左右添加单个空格
+						<para>比如，加减乘除等操作，大于号小于号等等</para>
+						<para></para>
+						<para></para>
+						<para></para>
+					</listitem>
+					<listitem>。。。</listitem>
+					<listitem>。。。</listitem>
+					<listitem>。。。</listitem>
+				</itemizedlist>
+			</listitem>
+			<listitem>代码中合适的地方要加上必要的括号
+				<para>即使是，语法上，可以不用加括号，但是为了程序的可读性，以及减少笔误带来的出错机会，也要加对应的括号</para>
+				<para></para>
+				<para></para>
+				<para></para>
+			</listitem>
+		</itemizedlist>
+		<para></para>
+		<para></para>
+		<para></para>
+	</sect2>
+
+</sect1>
+
+<sect1 xml:id="coding_rule_comments"><title>编程规范之注释</title>
+
+	<sect2 xml:id="comments_rule_for_add"><title>添加注释的原则</title>
+		<para></para>
+		<para>不同语言都要加上必要的注释</para>
+		<para>必要的注释，指的是：</para>
+		<itemizedlist>
+			<listitem>用注释说明代码背后的事情
+				<para>如果代码本身不能说明全部问题，那么则一定要加上对应的注释，去说明代码背后的问题</para>
+				<para></para>
+				<para></para>
+			</listitem>
+			<listitem>不要多余的注释
+				<para>在已经保证代码可读性足够好的情况下，无需加上多余的注释</para>
+				<para></para>
+			</listitem>
+		</itemizedlist>
+		<para></para>
+	</sect2>
+
+	<sect2 xml:id="comments_syntax"><title>注释的语法</title>
+		<para>语言不同，注释的语法不同</para>
+		<para></para>
+		<para></para>
+		<para></para>
+	</sect2>
+
+	<para></para>
+	<para></para>
+	<para></para>
+	<para></para>
+	<para></para>
+</sect1>
+
+<sect1 xml:id="coding_rule_naming"><title>编程规范之命名</title>
+	<para>不论是用哪种语言去写代码，都会遇到，对于一个东西，给其起一个名字，即给东西命名</para>
+	<para>这个东西，包括但不限于：</para>
+	<itemizedlist>
+		<listitem>变量variable</listitem>
+		<listitem>函数function</listitem>
+		<listitem>结构体structure</listitem>
+	</itemizedlist>
+	<para>下面就来介绍一下，关于命名方面的规范。</para>
+	<para></para>
+
+	<sect2 xml:id="naming_rule_convention"><title>命名的原则</title>
+
+		<sect3 xml:id="rule_see_name_know_meaning"><title>见名知意</title>
+			<para>否则容易：让看代码的人就容易混淆</para>
+			<para></para>
+			<para></para>
+		</sect3>
+
+		<para></para>
+	</sect2>
+
+	<sect2 xml:id="naming_method"><title>命名方法</title>
+		<para>知道了命名时要遵循的原则后，就涉及到，如何给具体的变量、函数等内容去命名了。</para>
+		<para>命名这个事情，很早就有人专门总结了不同的，常见的方法：</para>
+		
+		<sect3 xml:id="camel_case_notation"><title>驼峰（式）命名法</title>
+			<para></para>
+			<para></para>
+			<para></para>
+			<para></para>
+			
+			<note xml:id="note.naming_method_pascal"><title>帕斯卡（pascal）命名法</title>
+				<para>此处只是简要的提醒一下：</para>
+				<para>和驼峰式命名法类似的另外还有种方法，叫做：帕斯卡（pascal）命名法</para>
+				<para></para>
+				<para></para>
+			</note>
+		</sect3>
+
+		<sect3 xml:id="hungarian_notation"><title>匈牙利命名法</title>
+			<para></para>
+			<para></para>
+			<para></para>
+			<para></para>
+			<para></para>
+		</sect3>
+		
+		<para></para>
+		<para></para>
+		<para></para>
+		<para></para>
+	</sect2>
+
+	<sect2 xml:id="naming_details"><title>命名规范中的一些细节</title>
+		<para>知道了命名的方法和原则后，再来介绍一些，在命名的细节，即命名时的一些常见做法：</para>
+		<para></para>
+
+		<sect3 xml:id="constant_uppercase"><title>常量大写</title>
+			<para>一般来说，常量，都是用大写。</para>
+			<para></para>
+		</sect3>
+
+		<sect3 xml:id="add_prefix"><title>根据情况给名字加前缀</title>
+			<para>有些编程规范中，预定中，会针对于如下的一些情况，给变量加一些前缀：</para>
+			<itemizedlist>
+				<listitem>模块内部变量加<emphasis>m</emphasis>前缀
+					<para><emphasis>m</emphasis>，表示module，模块，模块内部的变量</para>
+					<para></para>
+					<para></para>
+				</listitem>
+				<listitem>全局的外部的变量加<emphasis>g</emphasis>前缀
+					<para><emphasis>g</emphasis>，指的是global，全局的，外部的变量，相对于当前函数内部来说，是外部的全局的变量</para>
+					<para></para>
+					<para></para>
+				</listitem>
+				<listitem>常量加<emphasis>const</emphasis>前缀
+					<para>这个做法，和之前介绍的，常量一般用大写，是互斥的，</para>
+					<para>两种做法，根据自己需要，采用其中一种即可。</para>
+					<para></para>
+					<para></para>
+				</listitem>
+			</itemizedlist>
+			<para></para>
+		</sect3>
+
+	</sect2>
+
+</sect1>
+
+<sect1 xml:id="coding_rule_design"><title>编程规范之设计原则</title>
+	<para>在你写代码时，往往也伴随着设计对应的函数，类，模块，甚至项目架构，而其中所涉及到的很多原则，也是属于编程规范的范畴。</para>
+	<para>下面就来介绍各种常见的编程规范的设计原则。</para>
+	<para></para>
+	<para></para>
+
+	<sect2 xml:id="high_cohesion_low_coupling"><title>高内聚，低耦合</title>
+		<para>不论是设计函数、类，模块，项目架构，等内容时，都要遵循的一个原则，那就是：高内聚，低耦合</para>
+		<para>简单解释就是：</para>
+		<itemizedlist>
+			<listitem>高内聚：和当前功能上有逻辑关系的，放在一起。</listitem>
+			<listitem>低耦合：不要把和当前功能无关的东西牵扯进来</listitem>
+		</itemizedlist>
+		<para></para>
+	</sect2>
+
+	<sect2 xml:id="freq_used_as_func"><title>使用频率高的代码，尽量做成函数和类库</title>
+		<para>将那些，使用频率高的，相对重合度很高的代码，整合到对应的，公共的函数中，甚至做成单独的类库</para>
+		<para>这样的好处是，随着你的编码时间和经验的提高，你的，或者你们公司的，项目的，公用的代码，函数，类库，会逐渐增加，为你以后的编程的质量和效率的提升，大有帮助。</para>
+		<para>比如，之前我在编程期间，就慢慢地积累了一些相对通用的函数，整理成自己的库函数了：</para>
+		<para><link xl:href="http://www.crifan.com/crifan_released_all/crifanlib/">crifanLib – Crifan’s Library (C#/Python/PHP/C/…) | 在路上</link></para>
+		<para>有需要的可以去看看。</para>
+	</sect2>
+
+	<sect2 xml:id="nest_level_not_too_large"><title>嵌套层次不要太深</title>
+		<para>写代码涉及到嵌套时，比如for循环语句，不要嵌套太多层</para>
+		<para>一般不应该超过7层，否则就应该要回头审视你的设计的架构是否合理，或者是函数本身是否过于复杂以至于是否该把函数拆分了。</para>
+		<para></para>
+	</sect2>
+
+</sect1>	
+		
+<sect1 xml:id="diff_lan_diff_rule"><title>不同语言自己的特定的编程规范</title>
+	<para>各种不同的计算机语言，基本上都有自己的编程规范</para>
+	<para>详见后面各个章节的介绍：</para>
+	<itemizedlist>
+		<listitem><xref linkend="ch03_c_coding_rule" /></listitem>
+		<listitem><xref linkend="ch04_cpp_coding_rule" /></listitem>
+		<listitem><xref linkend="ch05_python_coding_rule" /></listitem>
+		<listitem><xref linkend="ch06_go_coding_rule" /></listitem>
+		<listitem><xref linkend="ch07_java_coding_rule" /></listitem>
+		<listitem><xref linkend="ch08_csharp_coding_rule" /></listitem>
+		<listitem><xref linkend="ch09_php_coding_rule" /></listitem>
+		<listitem><xref linkend="ch10_js_coding_rule" /></listitem>
+		<listitem><xref linkend="ch11_other_coding_rule" /></listitem>
+	</itemizedlist>
+	<para></para>
+</sect1>
+
+<sect1 xml:id="company_specific_coding_rule"><title>不同公司或组织的编程规范</title>
+	<para>除了语言本身的编程规范之外，其他很多，相对比较正规以及重视技术积累的公司或组织，针对某些常用的语言，也制定了自己的一套编程规范，比如：</para>
+	<para></para>
+
+	<sect2 xml:id="company_coding_rule_google"><title>Google的编程规范</title>
+		<para>Google的R语言的编程规范：</para>
+		<para><link xl:href="https://google-styleguide.googlecode.com/svn/trunk/Rguide.xml">Google's R Style Guide</link></para>
+		<para></para>
+		<para></para>
+		<para></para>
+	</sect2>
+
+	<sect2 xml:id="company_coding_rule_huawei"><title>华为的编程规范</title>
+		<para>华为的编程规范：</para>
+		<para>华为技术有限公司c语言编程规范_百度文库</para>
+		<para><link xl:href="http://wenku.baidu.com/view/40f60ec74028915f804dc2d7.html">华为技术有限公司c语言编程规范_百度文库</link></para>
+		<para></para>
+	</sect2>
+
+	<para></para>
+	<para></para>
+</sect1>
+
+</chapter>

@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding="utf-8"?>
+
+<!DOCTYPE chapter
+[
+
+<!ENTITY % crl_ent PUBLIC "crl.ent" 'http://www.crifan.com/files/res/docbook/entity/crl.ent'>
+%crl_ent;
+
+]>
+
+
+<chapter 
+    xmlns="http://docbook.org/ns/docbook"
+    xmlns:xi="http://www.w3.org/2001/XInclude"
+    xmlns:xl="http://www.w3.org/1999/xlink"
+    
+    xml:id="ch01_why_and_what_coding_rule">
+
+<title>什么是编程规范以及为何要有编程规范</title>
+
+<sect1 xml:id="what_is_coding_rule"><title>编程规范指的是什么</title>
+	<para>编程规范，指的是一组规则或指导意见，建议你，要求你，在编程时，用某种计算机语言写代码时，如何写，要遵循什么意见或建议。</para>
+	<para></para>
+	<para>一般来说，不是强制的，但是是多数人都遵守的一些规范。</para>
+	<para>不过，很多公司，倒是强制性的，使用统一的某种规范，此时，此规范或约定，就是要强制性的实行了。</para>
+	<para></para>
+	<para></para>
+	<para>在讨论编程规范时，另外还有几个常提到的概念，在此处可以理解基本上是同一个意思：</para>
+	<para>编程约定Coding Convention(s)</para>
+	<para>==编程规范Coding Rule(s)</para>
+	<para>==编程风格Coding Style(s)</para>
+	<para>==编码风格Programming Style(s)</para>
+	<para>==编码标准Coding Standard(s)</para>
+	<para></para>
+</sect1>
+
+<sect1 xml:id="why_coding_rule"><title>为何会有编程规范</title>
+	<para>TODO：抽空把那张照片的内容，整理过来：</para>
+	<para>TODO：另外再顺带搜一下，该照片中的内容的原始出处。</para>
+	<para>软件，生命周期，代码可读性和可维护性，其中软件的生命周期的大部分，都是别人负责看的代码，维护你的代码，扩展你的代码。</para>
+	<para>即，代码写出来主要是给别人看的，而不仅仅是给自己看的。</para>
+	<para>注意此处的“主要”，意味着，你写了代码，是为了后来人，维护此软件的人，看的。</para>
+	<para></para>
+	<para>可以总结成简单的一句话：</para>
+	<para><emphasis>你写出来的代码是给别人看的</emphasis></para>
+	<para></para>
+	<para>背后的逻辑是：</para>
+	<para>-&gt;所以你要确保你自己写出来的代码，不仅仅是自己容易看懂，且也要确保别人也容易看懂</para>
+	<para>-&gt;对于每个写代码的人，如果都按照自己的喜好和习惯去写代码，那么写出来的代码的风格肯定大相径庭，风格迥异</para>
+	<para>-&gt;所以要有一个，相对来说通用的，合理的，大家所习惯遵守的风格，总结和定义出来，让大家去遵守</para>
+	<para>-&gt;每个人都在写代码时都遵守这个规范</para>
+	<para>-&gt;这个描述了该如何写代码的规范，就叫做：编程规范</para>
+	<para></para>
+	<para>解释了道理后，再贴上一些大牛们的观点：</para>
+	<blockquote>
+		<para>Programs are meant to be read by humans and only incidentally for computers to execute.</para>
+		<para>  — H. Abelson and G. Sussman (in &quot;Structure and Interpretation of Computer Programs&quot;</para>
+	</blockquote>
+	<para>其中：</para>
+	<itemizedlist>
+		<listitem>H. Abelson and G. Sussman
+			<para>是个牛人，维基百科中的解释是：</para>
+			<quote>哈尔·阿伯尔森（英语：Hal Abelson，1947年4月26日－）是美国麻省理工学院电子工程和计算机科学部门的一名著名计算机科学教授，电气电子工程师学会院士, 创作共用，自由软件基金会，麻省理工网络开放课程，媒体实验室 Center for Mobile Learning，MIT App Inventor的创始领导人。</quote>
+			<para></para>
+		</listitem>
+		<listitem>&quot;Structure and Interpretation of Computer Programs&quot;
+			<para>是本书，<quote>这本书被广泛地认为是计算机科学的经典教材，在计算机科学的教学领域产生了深刻的影响。</quote></para>
+		</listitem>
+	</itemizedlist>
+	<para>总之：大牛们的观点都已经是：代码是写给别人看的，顺带只是用来被计算机执行的。</para>
+	<para>所以，你要是写的代码，让别人看不懂，那么就好好学习编程规范，写出让别人也易懂的代码吧。</para>
+	<para></para>
+</sect1>
+
+
+</chapter>

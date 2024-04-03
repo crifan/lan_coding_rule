@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding="utf-8"?>
+
+<!DOCTYPE chapter
+[
+
+<!ENTITY % crl_ent PUBLIC "crl.ent" 'http://www.crifan.com/files/res/docbook/entity/crl.ent'>
+%crl_ent;
+
+]>
+
+
+<chapter 
+    xmlns="http://docbook.org/ns/docbook"
+    xmlns:xi="http://www.w3.org/2001/XInclude"
+    xmlns:xl="http://www.w3.org/1999/xlink"
+    
+    xml:id="ch06_go_coding_rule">
+
+<title>GO语言编程规范</title>
+
+<para>网络上已有的一些整理好的GO语言的编程规范，可供参考：</para>
+<itemizedlist>
+	<listitem><para><link xl:href="http://golang.org/ref/spec">The Go Programming Language Specification - The Go Programming Language</link></para>
+		<para>对应已有中文版：</para>
+		<para><link xl:href="http://zh-golang.appspot.com/ref/spec">Go编程语言规范</link></para>
+	</listitem>
+	<listitem><link xl:href="http://segmentfault.com/blog/btc/1190000000464394">Golang编码规范 - SegmentFault</link>
+		<para></para>
+	</listitem>
+</itemizedlist>
+<para></para>
+<para></para>
+<para></para>
+
+</chapter>

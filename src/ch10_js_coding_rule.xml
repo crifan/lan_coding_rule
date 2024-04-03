@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding="utf-8"?>
+
+<!DOCTYPE chapter
+[
+
+<!ENTITY % crl_ent PUBLIC "crl.ent" 'http://www.crifan.com/files/res/docbook/entity/crl.ent'>
+%crl_ent;
+
+]>
+
+
+<chapter 
+    xmlns="http://docbook.org/ns/docbook"
+    xmlns:xi="http://www.w3.org/2001/XInclude"
+    xmlns:xl="http://www.w3.org/1999/xlink"
+    
+    xml:id="ch10_js_coding_rule">
+
+<title>JavaScript语言编程规范</title>
+
+<para><link xl:href="https://google-styleguide.googlecode.com/svn/trunk/javascriptguide.xml">Google JavaScript Style Guide</link></para>
+<para><link xl:href="http://contribute.jquery.org/style-guide/js/">JavaScript Style Guide | Contribute to jQuery</link></para>
+<para></para>
+<para></para>
+<para><link xl:href="http://segmentfault.com/blog/jslite/1190000002460897">JavaScript编码规范 1 - SegmentFault</link></para>
+<para><link xl:href="http://segmentfault.com/blog/jslite/1190000002460944">JavaScript编码规范 2 - SegmentFault</link></para>
+<para></para>
+<para></para>
+<para></para>
+
+</chapter>

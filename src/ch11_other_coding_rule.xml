@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding="utf-8"?>
+
+<!DOCTYPE chapter
+[
+
+<!ENTITY % crl_ent PUBLIC "crl.ent" 'http://www.crifan.com/files/res/docbook/entity/crl.ent'>
+%crl_ent;
+
+]>
+
+
+<chapter 
+    xmlns="http://docbook.org/ns/docbook"
+    xmlns:xi="http://www.w3.org/2001/XInclude"
+    xmlns:xl="http://www.w3.org/1999/xlink"
+    
+    xml:id="ch11_other_coding_rule">
+
+<title>其他语言的编程规范</title>
+
+<sect1 xml:id="html_coding_rule"><title>HTML编程规范</title>
+	<para><link xl:href="http://segmentfault.com/blog/sunchengli/1190000000655954">编码规范 —— 编写灵活、稳定、高质量的 HTML 和 CSS 代码的规范 - SegmentFault</link></para>
+	<para></para>
+	<para></para>
+	<para></para>
+</sect1>
+
+<sect1 xml:id="css_coding_rule"><title>CSS编程规范</title>
+	<para><link xl:href="http://segmentfault.com/blog/sunchengli/1190000000655954">编码规范 —— 编写灵活、稳定、高质量的 HTML 和 CSS 代码的规范 - SegmentFault</link></para>
+	<para></para>
+	<para></para>
+	<para></para>
+	<para></para>
+</sect1>
+
+</chapter>

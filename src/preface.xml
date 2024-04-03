@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding="utf-8"?>
+
+<!DOCTYPE preface>
+
+<preface
+    xmlns="http://docbook.org/ns/docbook"
+    xmlns:xi="http://www.w3.org/2001/XInclude"
+    xmlns:xl="http://www.w3.org/1999/xlink"
+    
+    xml:id="preface">
+    
+<title>正文之前</title>
+
+<section xml:id="purpose"><title>目的</title>
+    <para>本文旨在介绍不同编程语言所通用的编程规范，以及每个特定的语言所自己特有的编程规范。</para>
+    <para>以便编程人员重视编程规范，学会遵守合理的编程规范，写出更高质量的代码。</para>
+</section>
+
+<section xml:id="declaration"><title>声明</title>
+    <para>任何问题、意见、建议等，都欢迎发邮件一起探讨：admin (at) crifan.com。</para>
+</section>
+
+</preface>

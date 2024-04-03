@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding="utf-8"?>
+
+<!DOCTYPE chapter
+[
+
+<!ENTITY % crl_ent PUBLIC "crl.ent" 'http://www.crifan.com/files/res/docbook/entity/crl.ent'>
+%crl_ent;
+
+]>
+
+
+<chapter 
+    xmlns="http://docbook.org/ns/docbook"
+    xmlns:xi="http://www.w3.org/2001/XInclude"
+    xmlns:xl="http://www.w3.org/1999/xlink"
+    
+    xml:id="ch07_java_coding_rule">
+
+<title>Java语言编程规范</title>
+
+<sect1 xml:id="java_coding_rule"><title>Java语言编程规范</title>
+	<para></para>
+	<para></para>
+	<para></para>
+	<para></para>
+</sect1>
+
+<sect1 xml:id="android_coding_rule"><title>Android编程规范</title>
+	<para>Android，不算是一个普通意义上的编程规范。</para>
+	<para>Android首先是个平台，即大家常说的，移动领域内的操作系统。</para>
+	<para>而Android是Google，在基于嵌入式Linux基础上设计出的一套框架和平台，在此平台上可以开发Android的应用程序。</para>
+	<para>而针对于在Android平台上，用Java语言，开发Android的应用程序，也有自己特定的一些编程方面的规范，有些是和Java语言本身相关的，有些是和Android平台本身相关的。</para>
+	<para></para>
+	<para></para>
+	<para></para>
+</sect1>
+
+</chapter>
